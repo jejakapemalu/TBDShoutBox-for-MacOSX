@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC9290914D54FEB005C08AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC9290814D54FEB005C08AD /* Cocoa.framework */; };
+		5CC9291314D54FEB005C08AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9291114D54FEB005C08AD /* InfoPlist.strings */; };
+		5CC9291514D54FEB005C08AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC9291414D54FEB005C08AD /* main.m */; };
+		5CC9291914D54FEB005C08AD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9291714D54FEB005C08AD /* Credits.rtf */; };
+		5CC9291C14D54FEB005C08AD /* TBDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC9291B14D54FEB005C08AD /* TBDAppDelegate.m */; };
+		5CC9291F14D54FEB005C08AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC9291D14D54FEB005C08AD /* MainMenu.xib */; };
+		5CC9292714D5512F005C08AD /* TBDPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC9292614D5512F005C08AD /* TBDPost.m */; };
+		5CC9293D14D56DC1005C08AD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC9293C14D56DC1005C08AD /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CC9290414D54FEB005C08AD /* TBDShoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBDShoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC9290814D54FEB005C08AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CC9290B14D54FEB005C08AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CC9290C14D54FEB005C08AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CC9290D14D54FEB005C08AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CC9291014D54FEB005C08AD /* TBDShoutApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBDShoutApp-Info.plist"; sourceTree = "<group>"; };
+		5CC9291214D54FEB005C08AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC9291414D54FEB005C08AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC9291614D54FEB005C08AD /* TBDShoutApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBDShoutApp-Prefix.pch"; sourceTree = "<group>"; };
+		5CC9291814D54FEB005C08AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5CC9291A14D54FEB005C08AD /* TBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBDAppDelegate.h; sourceTree = "<group>"; };
+		5CC9291B14D54FEB005C08AD /* TBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBDAppDelegate.m; sourceTree = "<group>"; };
+		5CC9291E14D54FEB005C08AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CC9292514D5512F005C08AD /* TBDPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDPost.h; sourceTree = "<group>"; };
+		5CC9292614D5512F005C08AD /* TBDPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDPost.m; sourceTree = "<group>"; };
+		5CC9293C14D56DC1005C08AD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC9290114D54FEA005C08AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC9293D14D56DC1005C08AD /* WebKit.framework in Frameworks */,
+				5CC9290914D54FEB005C08AD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC928F914D54FEA005C08AD = {
+			isa = PBXGroup;
+			children = (
+				5CC9293C14D56DC1005C08AD /* WebKit.framework */,
+				5CC9290E14D54FEB005C08AD /* TBDShoutApp */,
+				5CC9290714D54FEB005C08AD /* Frameworks */,
+				5CC9290514D54FEB005C08AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC9290514D54FEB005C08AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9290414D54FEB005C08AD /* TBDShoutApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC9290714D54FEB005C08AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9290814D54FEB005C08AD /* Cocoa.framework */,
+				5CC9290A14D54FEB005C08AD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CC9290A14D54FEB005C08AD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9290B14D54FEB005C08AD /* AppKit.framework */,
+				5CC9290C14D54FEB005C08AD /* CoreData.framework */,
+				5CC9290D14D54FEB005C08AD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CC9290E14D54FEB005C08AD /* TBDShoutApp */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9292514D5512F005C08AD /* TBDPost.h */,
+				5CC9292614D5512F005C08AD /* TBDPost.m */,
+				5CC9291A14D54FEB005C08AD /* TBDAppDelegate.h */,
+				5CC9291B14D54FEB005C08AD /* TBDAppDelegate.m */,
+				5CC9291D14D54FEB005C08AD /* MainMenu.xib */,
+				5CC9290F14D54FEB005C08AD /* Supporting Files */,
+			);
+			path = TBDShoutApp;
+			sourceTree = "<group>";
+		};
+		5CC9290F14D54FEB005C08AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9291014D54FEB005C08AD /* TBDShoutApp-Info.plist */,
+				5CC9291114D54FEB005C08AD /* InfoPlist.strings */,
+				5CC9291414D54FEB005C08AD /* main.m */,
+				5CC9291614D54FEB005C08AD /* TBDShoutApp-Prefix.pch */,
+				5CC9291714D54FEB005C08AD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC9290314D54FEA005C08AD /* TBDShoutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC9292214D54FEB005C08AD /* Build configuration list for PBXNativeTarget "TBDShoutApp" */;
+			buildPhases = (
+				5CC9290014D54FEA005C08AD /* Sources */,
+				5CC9290114D54FEA005C08AD /* Frameworks */,
+				5CC9290214D54FEA005C08AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBDShoutApp;
+			productName = TBDShoutApp;
+			productReference = 5CC9290414D54FEB005C08AD /* TBDShoutApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC928FB14D54FEA005C08AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CC928FE14D54FEA005C08AD /* Build configuration list for PBXProject "TBDShoutApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CC928F914D54FEA005C08AD;
+			productRefGroup = 5CC9290514D54FEB005C08AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC9290314D54FEA005C08AD /* TBDShoutApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC9290214D54FEA005C08AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC9291314D54FEB005C08AD /* InfoPlist.strings in Resources */,
+				5CC9291914D54FEB005C08AD /* Credits.rtf in Resources */,
+				5CC9291F14D54FEB005C08AD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC9290014D54FEA005C08AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC9291514D54FEB005C08AD /* main.m in Sources */,
+				5CC9291C14D54FEB005C08AD /* TBDAppDelegate.m in Sources */,
+				5CC9292714D5512F005C08AD /* TBDPost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CC9291114D54FEB005C08AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC9291214D54FEB005C08AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CC9291714D54FEB005C08AD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC9291814D54FEB005C08AD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5CC9291D14D54FEB005C08AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC9291E14D54FEB005C08AD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC9292014D54FEB005C08AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CC9292114D54FEB005C08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CC9292314D54FEB005C08AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBDShoutApp/TBDShoutApp-Prefix.pch";
+				INFOPLIST_FILE = "TBDShoutApp/TBDShoutApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CC9292414D54FEB005C08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBDShoutApp/TBDShoutApp-Prefix.pch";
+				INFOPLIST_FILE = "TBDShoutApp/TBDShoutApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC928FE14D54FEA005C08AD /* Build configuration list for PBXProject "TBDShoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC9292014D54FEB005C08AD /* Debug */,
+				5CC9292114D54FEB005C08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC9292214D54FEB005C08AD /* Build configuration list for PBXNativeTarget "TBDShoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC9292314D54FEB005C08AD /* Debug */,
+				5CC9292414D54FEB005C08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC928FB14D54FEA005C08AD /* Project object */;
+}
